@@ -53,31 +53,30 @@ const NeighborhoodGraphs = ({
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
-      title: {
-        display: true,
-        text: `${neighborhood} - Price Trends`,
-      },
-      legend: {
-        position: "top",
-      },
+        legend: {
+            position: "top",
+        },
+        title: {
+            display: true,
+            text: `${neighborhood} - Price Trends`, // Dynamically use the neighborhood name
+        },
     },
     scales: {
-      x: {
-        title: {
-          display: true,
-          text: "Months",
+        y: {
+            beginAtZero: true,
+            ticks: {
+                stepSize: 100,
+                callback: function (value) {
+                    return `$${value}`; // Format tick labels as currency
+                },
+            },
         },
-      },
-      y: {
-        title: {
-          display: true,
-          text: "Price",
-        },
-      },
     },
-  };
+};
 
+  
   return (
     <div className="graphs-container">
       <div className="graphs-header">

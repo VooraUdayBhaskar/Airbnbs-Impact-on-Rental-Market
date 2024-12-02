@@ -144,9 +144,13 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
 
   // Handle "View Graphs"
   const handleViewGraphs = (neighborhood) => {
-    fetchNeighborhoodData(neighborhood);
-    setShowGraphs(true);
-  };
+    console.log("Selected Neighborhood for Graphs:", neighborhood); // Debugging
+    setSelectedNeighborhood(neighborhood); // Update selected neighborhood
+    fetchNeighborhoodData(neighborhood); // Fetch data for the graphs
+    setShowGraphs(true); // Open the graph modal
+};
+
+  
 
   // GeoJSON layer styling
   const getNeighborhoodStyle = (feature) => ({
@@ -220,10 +224,11 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
       <NeighborhoodGraphs
   isOpen={showGraphs} // Show only when "View Graphs" is clicked
   onClose={() => setShowGraphs(false)} // Close the graph box
-  neighborhood={selectedNeighborhood || ""}
+  neighborhood={selectedNeighborhood || ""} // Pass the selected neighborhood
   rentalPrices={rentalPrices}
   airbnbPrices={airbnbPrices}
 />
+
     </div>
   );
 };
