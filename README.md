@@ -62,10 +62,8 @@ The following are prerequisites for all systems:
 
 Start the application :
 
+ 	 npm start
 
-	```
- 	sudo npm start
-	```
 
 ## Results
 ## Technical Implementation
