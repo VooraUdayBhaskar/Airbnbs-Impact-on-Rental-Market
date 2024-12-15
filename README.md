@@ -9,6 +9,10 @@ The team includes:
 * Sravan Kilaru (University of Illinois Chicago)
 * Om Naga Sai Mani Pavan Chamarthi (University of Illinois Chicago)
 
+## Project Report
+Our Project Report Can be accessed Here
+* Project Report : [Report](#https://drive.google.com/file/d/1n9_TVA_K15iqKD7MOheAKIiJY_6PkhZv/view?usp=sharing)
+
 ## Table of contents
 
    * [Problem Description](#Problem-Description)
@@ -62,6 +66,11 @@ The following are prerequisites for all systems:
 * Node.js (v14 or latest version)
 * Python 3.8+
 
+### Setup 
+Install Node.js dependencies:
+	
+ 	npm install
+
 Start the application :
 
  	 npm start
@@ -80,8 +89,8 @@ Start the application :
 ## Future Contributions
 * Fork this repository
 * Create a new branch (```git checkout -b branch name```)
-* Commit your contribution to the branch (git commit -m 'your contribution')
-* Push the work to the orginal branch (git push origin branch name)
+* Commit your contribution to the branch (```git commit -m 'your contribution'```)
+* Push the work to the orginal branch (```git push origin branch name```)
 * Open a Pull Request
 
 ### Linux (Ubuntu, Linux Mint)
