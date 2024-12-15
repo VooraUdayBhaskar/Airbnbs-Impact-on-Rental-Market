@@ -28,20 +28,31 @@ This project focuses on the United States housing market to examine the extent o
 #### Airbnb Dataset:
 The Airbnb dataset, sourced from the Inside Airbnb platform, contains detailed information about Airbnb listings across various cities. For this analysis, dataset includes the following attributes: 
 
-Property Name: Identifies the Airbnb listing by name. 
+* Property Name: Identifies the Airbnb listing by name. 
 
-Price: Specifies the rental cost of the property per day or night. 
+* Price: Specifies the rental cost of the property per day or night. 
 
-Geolocation: Provides latitude and longitude details for mapping and spatial analysis. 
+* Geolocation: Provides latitude and longitude details for mapping and spatial analysis. 
 
-Availability: Indicates the average number of days the property is available for rental. 
+* Availability: Indicates the average number of days the property is available for rental. 
 
-Neighbourhood Region: Categorizes listings into specific neighbourhoods for localized analysis. 
+* Neighbourhood Region: Categorizes listings into specific neighbourhoods for localized analysis. 
 
 This dataset, spanning 2020–2023, contains over 280,000 records, enabling an extensive evaluation of Airbnb trends and their influence on the housing market.
 
+#### Zillow-Dataset: 
+The Zillow dataset complements the Airbnb data by providing detailed property rental values for each neighbourhood in Chicago for understanding. It includes: 
+
+* Rental Values: Monthly rental prices for properties in different neighbourhood’s 
+
+* Time Frame: Covers the last five years, offering historical context to observe trends over time. 
+
+* Zip codes: Contains the region names (neighbourhood names) in zip code format for each specific region/neighbourhood. 
+
 ### Dataset Access
-[AirBNB](https://insideairbnb.com/get-the-data/)
+The datasets can be accessed through : 
+* Air BNB Dataset : [AirBNB](https://insideairbnb.com/get-the-data/)
+* Zillow Dataset : [Zillow](https://www.zillow.com/research/data/)
 
 
 ## Running AirBNB's Impact
