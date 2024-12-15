@@ -79,6 +79,9 @@ You can access the application at (```http://localhost:3000```)
 ## Results
 ### Key Findings:
 * Visualization of AirBNB's locations
+* Particularly useful for identifying clusters of Airbnb activity and analysing their proximity to neighbourhood boundaries.
+* This grouping enables us for further analysis of the relationship between Airbnb density and rental prices in specific neighbourhoods.
+* Airbnb will be located in based on the zip code or region. This visualization bridges the Airbnb dataset, which originally lacked zip codes, with the Zillow dataset that provided zip code data for neighborhoods.
 ![Key Findings](./images/neighboorhood-analysis.png)
 * Heatmap demonstrates the distribution of Airbnb listings.
 * The intensity of the heatmap changes from blue to orange to red, with red areas indicating higher densities of listings in specific neighbourhoods.
