@@ -21,13 +21,10 @@ A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
 ## Table of contents
 
    * [Problem Description](#Problem-Description)
-      * [Linux (Ubuntu, Linux Mint)](#linux-ubuntu-linux-mint)
-      * [macOS](#macos)
-      * [Windows 7, 8, 10](#windows-7-8-10)
-   * [Compiling the latest release](#compiling-the-latest-release)
-   * [Running Urban Pulse](#running-urban-pulse)
-      * [Computing the pulses](#computing-the-pulses)
-      * [Web client](#web-client)
+   * [Data Summary](#Data-Summary)
+   * [Running AirBNB's Impact](#Running-AirBNB's-Impact)
+   * [Results](#Results)
+   * [Technical Implementation](#Technical-Implementation)
 
 ## Problem Description
 
