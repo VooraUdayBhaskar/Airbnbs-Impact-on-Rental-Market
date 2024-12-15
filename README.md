@@ -16,6 +16,8 @@ The team includes:
    * [Running AirBNB's Impact](#Running-AirBNB's-Impact)
    * [Results](#Results)
    * [Technical Implementation](#Technical-Implementation)
+   * [Future Contributions](#Future-contributions)
+
 
 ## Problem Description
 
@@ -67,6 +69,20 @@ Start the application :
 
 ## Results
 ## Technical Implementation
+### Technical Stack
+* React for UI components
+* Visual Studio tool to run the application
+* Material-UI for styling
+* Leaflet Open street map for mappings
+* D3.js for data visualization
+* Recharts for data visualization
+
+## Future Contributions
+* Fork this repository
+* Create a new branch (git checkout -b branch name)
+* Commit your contribution to the branch (git commit -m 'your contribution')
+* Push the work to the orginal branch (git push origin branch name)
+* Open a Pull Request
 
 ### Linux (Ubuntu, Linux Mint)
 1. Download Qt 5.8 (or later version) at [qt.io/download-open-source](https://www.qt.io/download-open-source/) and install it.
