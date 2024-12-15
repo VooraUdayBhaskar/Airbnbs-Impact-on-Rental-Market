@@ -64,7 +64,7 @@ Start the application :
 
 
 	```
- 		npm start
+ 	sudo npm start
 	```
 
 ## Results
