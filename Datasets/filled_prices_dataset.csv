@@ -1,0 +1,223 @@
+RegionID,SizeRank,RegionName,RegionType,StateName,State,City,Metro,CountyName,31-12-2023,31-03-2024,30-06-2024
+84630,12,60629,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1244.806698,1296.39219,1368.96525
+84620,33,60618,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1795.548251,1839.78619,1915.782038
+84639,41,60639,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1509.55388,1517.370312,1550.593085
+84646,58,60647,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1930.529701,2050.255506,2102.945441
+84693,65,60804,zip,IL,IL,Cicero,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1329.49045,1364.32096,1399.15147
+84633,74,60632,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1303.738273,1333.26427,1335.276333
+84619,79,60617,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1330.938162,1399.327106,1411.477848
+84610,99,60608,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1633.184434,1644.409869,1682.945203
+84627,106,60625,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1579.577147,1608.934038,1666.507659
+84625,110,60623,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1326.871982,1327.223752,1408.915258
+84635,131,60634,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1714.838419,1712.352992,1757.305771
+84340,177,60085,zip,IL,IL,Waukegan,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1458.386374,1443.026481,1476.705461
+84654,180,60657,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2025.031383,2111.949238,2201.06089
+84616,208,60614,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2399.319242,2538.431133,2633.704732
+84622,211,60620,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1138.907676,1144.249236,1164.359853
+84641,232,60641,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1461.158031,1513.377611,1549.728894
+84640,241,60640,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1713.456395,1757.446549,1780.040019
+84629,296,60628,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1261.064466,1200.466941,1160.133811
+84611,307,60609,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1354.012185,1369.273118,1350.213155
+84460,354,60402,zip,IL,IL,Berwyn,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1384.035386,1369.530497,1436.405085
+84648,357,60651,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1405.054799,1436.697407,1494.275385
+84621,387,60619,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1019.068438,1067.09488,1077.984934
+84638,402,60638,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1662.933359,1694.924413,1726.915467
+84541,483,60505,zip,IL,IL,Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1702.879999,1740.423165,1782.598658
+84504,501,60453,zip,IL,IL,Oak Lawn,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1544.413411,1544.696198,1590.674261
+84285,523,60016,zip,IL,IL,Des Plaines,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2065.338504,2109.189187,2107.489331
+84317,560,60056,zip,IL,IL,Mount Prospect,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1662.728392,1655.687258,1714.171046
+84631,623,60630,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1649.618408,1684.106169,1753.979712
+84329,625,60073,zip,IL,IL,Round Lake,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1831.142542,1956.498688,1953.258074
+84624,717,60622,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2182.775281,2212.694975,2286.352946
+84466,736,60411,zip,IL,IL,Chicago Heights,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1423.742173,1463.82103,1503.899887
+84491,747,60440,zip,IL,IL,Bolingbrook,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,2283.727659,2164.42111,2341.991474
+84273,751,60004,zip,IL,IL,Arlington Heights,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1936.105596,1963.131948,2052.049172
+84399,796,60148,zip,IL,IL,Lombard,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1854.971498,1906.752971,1958.468148
+84373,830,60120,zip,IL,IL,Elgin,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1610.061866,1649.397629,1645.332549
+85145,835,61761,zip,IL,IL,Normal,"Bloomington, IL",McLean County,1533.550891,1480.014894,1566.116446
+84628,844,60626,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1515.113834,1531.570669,1559.63388
+84615,867,60613,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1868.424896,1938.590793,1998.100846
+84542,876,60506,zip,IL,IL,Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1702.879999,1740.423165,1782.598658
+84647,895,60649,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1083.758979,1104.490556,1138.78652
+84618,949,60616,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1897.785939,1945.73782,1953.34857
+84486,952,60435,zip,IL,IL,Joliet,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1386.121005,1509.889613,1529.204204
+84642,999,60643,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1858.441785,1911.039109,1781.656116
+84283,1084,60014,zip,IL,IL,Crystal Lake,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,1702.879999,1740.423165,1782.598658
+84644,1107,60645,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1538.253259,1538.850987,1612.213807
+84378,1113,60126,zip,IL,IL,Elmhurst,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2249.91925,2215.51838,2315.114914
+84643,1121,60644,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1047.875696,1054.201263,1073.982569
+84637,1127,60637,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1507.116417,1536.337054,1533.588374
+84599,1134,60586,zip,IL,IL,Plainfield,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,2567.967574,2618.816371,2669.665168
+84376,1179,60123,zip,IL,IL,Elgin,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1485.289256,1598.04383,1580.004625
+84655,1318,60659,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1629.593661,1580.113301,1675.460352
+84591,1382,60564,zip,IL,IL,Naperville,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,2421.872066,2428.866344,2472.105031
+84868,1410,61265,zip,IL,IL,Moline,"Davenport-Moline-Rock Island, IA-IL",Rock Island County,818.9660985,892.7833104,881.9229647
+84572,1416,60543,zip,IL,IL,Oswego,"Chicago-Naperville-Elgin, IL-IN-WI",Kendall County,2150.634956,2218.69957,2254.347909
+84323,1425,60067,zip,IL,IL,Palatine,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1912.485562,1977.286723,2007.585473
+84368,1443,60115,zip,IL,IL,Dekalb,"Chicago-Naperville-Elgin, IL-IN-WI",DeKalb County,1343.483167,1467.571774,1469.430302
+84569,1463,60540,zip,IL,IL,Naperville,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2092.790505,2143.772538,2174.354626
+84320,1526,60062,zip,IL,IL,Northbrook,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2529.030884,2619.493045,2557.859032
+84656,1545,60660,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1599.036997,1617.609207,1675.326754
+84689,1593,60707,zip,IL,IL,Elmwood Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1558.939979,1598.935352,1691.370033
+84612,1636,60610,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2464.079017,2532.881881,2638.140178
+84433,1680,60188,zip,IL,IL,Carol Stream,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1677.180567,1733.6329,1825.058539
+84438,1749,60193,zip,IL,IL,Schaumburg,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2000.707607,1960.992109,2027.902906
+85052,1761,61554,zip,IL,IL,Pekin,"Peoria, IL",Tazewell County,1702.879999,1740.423165,1782.598658
+84617,1785,60615,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1725.017503,1739.249615,1744.088641
+84292,1788,60025,zip,IL,IL,Glenview,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2217.724442,2216.83279,2500.316372
+84513,1880,60462,zip,IL,IL,Orland Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2325.720885,2399.802316,2360.092165
+85282,1915,62040,zip,IL,IL,Granite City,"St. Louis, MO-IL",Madison County,828.6820706,879.6696684,930.6572662
+84295,1918,60030,zip,IL,IL,Grayslake,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1877.688158,1921.813498,1965.938838
+84361,1948,60107,zip,IL,IL,Streamwood,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84388,2004,60137,zip,IL,IL,Glen Ellyn,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2021.591909,2010.017116,2136.253043
+84318,2036,60060,zip,IL,IL,Mundelein,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1935.415362,1996.684892,2057.954422
+84324,2038,60068,zip,IL,IL,Park Ridge,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2656.115458,2891.819772,2824.201029
+84590,2084,60563,zip,IL,IL,Naperville,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1885.894093,1938.551268,1949.943507
+84540,2085,60504,zip,IL,IL,Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1988.544302,2112.835496,2140.586278
+85643,2151,62704,zip,IL,IL,Leland Grove,"Springfield, IL",Sangamon County,1034.766933,1038.632458,1075.10785
+84384,2160,60133,zip,IL,IL,Hanover Park,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2106.976591,2250.707717,2251.56535
+84497,2169,60446,zip,IL,IL,Romeoville,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1881.203088,1910.742628,1917.179607
+84345,2175,60090,zip,IL,IL,Wheeling,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1914.469722,1978.989444,2011.876682
+84444,2215,60201,zip,IL,IL,Evanston,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2855.7107,2833.027584,2828.864818
+85172,2232,61820,zip,IL,IL,Champaign,"Champaign-Urbana, IL",Champaign County,1222.371601,1276.441677,1306.952983
+84344,2248,60089,zip,IL,IL,Buffalo Grove,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,2074.834458,2124.833029,2175.541303
+84838,2308,61201,zip,IL,IL,Rock Island,"Davenport-Moline-Rock Island, IA-IL",Rock Island County,915.1760572,967.1757387,966.7071299
+84592,2395,60565,zip,IL,IL,Naperville,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1928.077473,1989.115793,2072.3712
+84626,2403,60624,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1482.391166,1511.074953,1503.17139
+84353,2460,60098,zip,IL,IL,Woodstock,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,1307.476322,1334.248729,1361.021136
+84696,2468,60901,zip,IL,IL,Kankakee,"Kankakee, IL",Kankakee County,1702.879999,1740.423165,1782.598658
+84364,2474,60110,zip,IL,IL,Carpentersville,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1965.199329,2011.168677,2057.138025
+84330,2512,60074,zip,IL,IL,Palatine,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1859.342111,1879.487483,1912.289092
+84296,2567,60031,zip,IL,IL,Gurnee,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1708.87089,1760.726733,1844.615385
+84445,2620,60202,zip,IL,IL,Evanston,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1895.923637,1923.718253,1992.793241
+85387,2629,62269,zip,IL,IL,O Fallon,"St. Louis, MO-IL",Saint Clair County,1527.863241,1508.431524,1490.666649
+84464,2642,60409,zip,IL,IL,Calumet City,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1442.308851,1409.995294,1434.392274
+85101,2644,61701,zip,IL,IL,Bloomington,"Bloomington, IL",McLean County,972.7120233,988.3627253,992.1476699
+85535,2700,62521,zip,IL,IL,Decatur,"Decatur, IL",Macon County,1702.879999,1740.423165,1782.598658
+85540,2703,62526,zip,IL,IL,Decatur,"Decatur, IL",Macon County,1702.879999,1740.423165,1782.598658
+84492,2706,60441,zip,IL,IL,Lockport,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1950.913888,1976.108804,2099.698484
+84613,2735,60611,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2467.625094,2562.301545,2683.033276
+84650,2749,60653,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1654.1685,1725.728023,1784.993617
+84614,2793,60612,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2293.688107,2185.126677,2249.035785
+85103,2850,61704,zip,IL,IL,Bloomington,"Bloomington, IL",McLean County,1312.53341,1327.367864,1358.491927
+85355,2867,62234,zip,IL,IL,Collinsville,"St. Louis, MO-IL",Madison County,915.5306481,902.8609168,912.9109481
+84276,2946,60007,zip,IL,IL,Elk Grove Village,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1658.085761,1725.741077,1747.274388
+84453,2970,60302,zip,IL,IL,Oak Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1530.640808,1557.547884,1598.748596
+84332,2972,60076,zip,IL,IL,Skokie,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84632,2973,60631,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1619.455509,1647.917222,1711.599079
+84636,3024,60636,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+85270,3046,62025,zip,IL,IL,Edwardsville,"St. Louis, MO-IL",Madison County,1288.831142,1371.840632,1379.499692
+84311,3069,60048,zip,IL,IL,Libertyville,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1986.786912,2026.050681,2065.31445
+84354,3131,60099,zip,IL,IL,Zion,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1702.879999,1740.423165,1782.598658
+84551,3196,60517,zip,IL,IL,Woodridge,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1567.001274,1579.404099,1588.335207
+399603,3234,60169,zip,IL,IL,Hoffman Estates,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1776.357813,1766.105099,1792.46335
+85641,3280,62702,zip,IL,IL,Springfield,"Springfield, IL",Sangamon County,924.8067378,1003.903757,1002.144031
+84299,3396,60035,zip,IL,IL,Highland Park,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,3572.903691,3592.755087,3612.606483
+85345,3421,62221,zip,IL,IL,Shiloh,"St. Louis, MO-IL",Saint Clair County,1023.998904,1004.055911,1023.49544
+84544,3451,60510,zip,IL,IL,Batavia,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1702.879999,1740.423165,1782.598658
+84427,3490,60181,zip,IL,IL,Villa Park,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1896.200436,1938.429809,1985.396951
+84558,3517,60525,zip,IL,IL,La Grange,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2248.243928,2198.732031,2365.434574
+84560,3519,60527,zip,IL,IL,Willowbrook,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1827.195983,1873.696511,1896.69029
+85173,3519,61821,zip,IL,IL,Champaign,"Champaign-Urbana, IL",Champaign County,1164.795748,1178.799245,1223.86925
+84420,3556,60174,zip,IL,IL,Saint Charles,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1671.06786,1782.148685,1846.515962
+84826,3570,61108,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,1702.879999,1740.423165,1782.598658
+85410,3572,62301,zip,IL,IL,Quincy,"Quincy, IL-MO",Adams County,1702.879999,1740.423165,1782.598658
+84489,3576,60438,zip,IL,IL,Lansing,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1505.478902,1507.423252,1552.915028
+84385,3585,60134,zip,IL,IL,Geneva,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1827.123432,1882.87889,1993.816482
+84549,3591,60515,zip,IL,IL,Downers Grove,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2064.767809,2053.344071,2152.616826
+84432,3597,60187,zip,IL,IL,Wheaton,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1788.441295,1973.126475,1958.894297
+84609,3650,60607,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2609.551299,2663.203067,2738.013736
+84356,3696,60102,zip,IL,IL,Algonquin,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,1965.580295,2075.002932,2124.17852
+84393,3708,60142,zip,IL,IL,Huntley,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,1702.879999,1740.423165,1782.598658
+84390,3741,60139,zip,IL,IL,Glendale Heights,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1752.151769,1777.563417,1757.487828
+85253,3743,62002,zip,IL,IL,Alton,"St. Louis, MO-IL",Madison County,1702.879999,1740.423165,1782.598658
+84563,3748,60532,zip,IL,IL,Lisle,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1766.312532,1783.654003,1829.989969
+84645,3758,60646,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84313,3765,60050,zip,IL,IL,McHenry,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,1702.879999,1740.423165,1782.598658
+84773,3785,61032,zip,IL,IL,Freeport,"Freeport, IL",Stephenson County,1702.879999,1740.423165,1782.598658
+84274,3799,60005,zip,IL,IL,Arlington Heights,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1647.39528,1637.682409,1686.084035
+84333,3870,60077,zip,IL,IL,Skokie,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2087.761001,2154.04627,2249.299039
+85174,3872,61822,zip,IL,IL,Champaign,"Champaign-Urbana, IL",Champaign County,1547.858326,1565.461519,1617.525625
+84284,3896,60015,zip,IL,IL,Deerfield,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,2390.232723,2379.798345,2501.690666
+84607,3929,60605,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2313.407396,2347.239745,2443.239867
+84825,4011,61107,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,1264.176524,1291.442869,1250.960622
+84434,4016,60189,zip,IL,IL,Wheaton,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2309.602596,2374.950185,2398.629364
+85642,4017,62703,zip,IL,IL,Springfield,"Springfield, IL",Sangamon County,928.8254476,966.3993585,1015.562548
+85071,4040,61604,zip,IL,IL,Peoria,"Peoria, IL",Peoria County,1085.681162,1111.586031,1114.519243
+84701,4068,60914,zip,IL,IL,Bourbonnais,"Kankakee, IL",Kankakee County,1352.810943,1389.119867,1425.428791
+85350,4174,62226,zip,IL,IL,Belleville,"St. Louis, MO-IL",Saint Clair County,942.8271709,999.7726664,1005.163752
+85819,4184,62959,zip,IL,IL,Marion,"Carbondale-Marion, IL",Williamson County,888.9753674,915.9265325,926.7144108
+84567,4204,60538,zip,IL,IL,Oswego,"Chicago-Naperville-Elgin, IL-IN-WI",Kendall County,1702.879999,1740.423165,1782.598658
+399602,4220,60124,zip,IL,IL,Elgin,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,2183.950055,2329.169241,2321.211493
+84623,4224,60621,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1415.963285,1408.084337,1460.068352
+84406,4296,60156,zip,IL,IL,Lake in the Hills,"Chicago-Naperville-Elgin, IL-IN-WI",McHenry County,2105.415647,2216.911552,2328.407457
+85079,4298,61614,zip,IL,IL,Peoria,"Peoria, IL",Peoria County,1702.879999,1740.423165,1782.598658
+85180,4463,61832,zip,IL,IL,Danville,"Danville, IL",Vermilion County,687.0532346,713.836349,879.5713703
+84827,4504,61109,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,1702.879999,1740.423165,1782.598658
+84319,4650,60061,zip,IL,IL,Vernon Hills,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,2306.424539,2366.95682,2394.81036
+84315,4699,60053,zip,IL,IL,Morton Grove,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84409,4741,60160,zip,IL,IL,Melrose Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84588,4955,60560,zip,IL,IL,Yorkville,"Chicago-Naperville-Elgin, IL-IN-WI",Kendall County,2037.722139,2256.933489,2476.144839
+84695,4959,60827,zip,IL,IL,Riverdale,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1191.72584,1177.085414,1174.687008
+85160,5027,61801,zip,IL,IL,Urbana,"Champaign-Urbana, IL",Champaign County,1263.046702,1371.964457,1395.256688
+84587,5033,60559,zip,IL,IL,Westmont,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1545.735617,1573.002537,1666.317206
+84403,5103,60153,zip,IL,IL,Maywood,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84418,5222,60172,zip,IL,IL,Roselle,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1702.879999,1740.423165,1782.598658
+84538,5224,60502,zip,IL,IL,Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2231.918487,2291.741398,2262.126967
+84821,5278,61103,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,946.2183962,912.9976992,962.2628513
+84589,5307,60561,zip,IL,IL,Darien,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1976.205334,2008.403146,2040.600958
+85161,5392,61802,zip,IL,IL,Urbana,"Champaign-Urbana, IL",Champaign County,1140.738457,1189.205912,1237.673367
+84424,5440,60178,zip,IL,IL,Sycamore,"Chicago-Naperville-Elgin, IL-IN-WI",DeKalb County,1702.879999,1740.423165,1782.598658
+84494,5477,60443,zip,IL,IL,Matteson,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+399713,5523,60642,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2346.131575,2444.121893,2517.824465
+84501,5568,60450,zip,IL,IL,Morris,"Chicago-Naperville-Elgin, IL-IN-WI",Grundy County,1702.879999,1740.423165,1782.598658
+84692,5634,60803,zip,IL,IL,Alsip,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+85770,5690,62901,zip,IL,IL,Carbondale,"Carbondale-Marion, IL",Jackson County,601.5425731,627.4719406,620.4878042
+84277,5766,60008,zip,IL,IL,Rolling Meadows,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1813.506254,1831.064714,1832.785907
+84829,5771,61111,zip,IL,IL,Loves Park,"Rockford, IL",Winnebago County,1702.879999,1740.423165,1782.598658
+84308,5841,60045,zip,IL,IL,Lake Forest,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1702.879999,1740.423165,1782.598658
+84651,5904,60654,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2639.865427,2715.996964,2834.975873
+84471,5969,60419,zip,IL,IL,Dolton,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1648.472293,1822.439944,1996.407595
+84832,6004,61115,zip,IL,IL,Machesney Park,"Rockford, IL",Winnebago County,1702.879999,1740.423165,1782.598658
+84439,6055,60194,zip,IL,IL,Schaumburg,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2104.242661,2092.760379,2229.940251
+84819,6101,61101,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,1008.75774,1076.60001,1112.129142
+84822,6246,61104,zip,IL,IL,Rockford,"Rockford, IL",Winnebago County,853.2989424,927.2831692,1001.267396
+84360,6287,60106,zip,IL,IL,Bensenville,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1702.879999,1740.423165,1782.598658
+84517,6312,60466,zip,IL,IL,Park Forest,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84371,6417,60118,zip,IL,IL,West Dundee,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,2185.815082,2082.029407,2089.26945
+85344,6464,62220,zip,IL,IL,Belleville,"St. Louis, MO-IL",Saint Clair County,1702.879999,1740.423165,1782.598658
+84487,6744,60436,zip,IL,IL,Rockdale,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1702.879999,1740.423165,1782.598658
+84455,6773,60304,zip,IL,IL,Oak Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1441.330051,1440.502596,1439.312365
+85070,7335,61603,zip,IL,IL,Peoria,"Peoria, IL",Peoria County,1025.724203,1109.954643,1117.907822
+85593,7341,62629,zip,IL,IL,Chatham,"Springfield, IL",Sangamon County,1702.879999,1740.423165,1782.598658
+85278,7365,62034,zip,IL,IL,Glen Carbon,"St. Louis, MO-IL",Madison County,1702.879999,1740.423165,1782.598658
+399605,7590,60403,zip,IL,IL,Crest Hill,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1453.852992,1466.329331,1510.043703
+85337,7590,62208,zip,IL,IL,Fairview Heights,"St. Louis, MO-IL",Saint Clair County,1702.879999,1740.423165,1782.598658
+84539,7653,60503,zip,IL,IL,Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",Will County,1702.879999,1740.423165,1782.598658
+84496,7772,60445,zip,IL,IL,Midlothian,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84583,7825,60555,zip,IL,IL,Warrenville,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,2033.333788,2079.170103,2189.008067
+84508,7851,60457,zip,IL,IL,Hickory Hills,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84603,7958,60601,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2695.262868,2816.364658,2848.377936
+84419,8029,60173,zip,IL,IL,Schaumburg,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1919.994824,1972.98389,2010.164256
+84381,8152,60130,zip,IL,IL,Forest Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1274.455,1288.878005,1325.037754
+85536,8189,62522,zip,IL,IL,Decatur,"Decatur, IL",Macon County,1702.879999,1740.423165,1782.598658
+85208,8243,61866,zip,IL,IL,Rantoul,"Champaign-Urbana, IL",Champaign County,715.455754,724.0598272,732.6639004
+84293,8354,60026,zip,IL,IL,Glenview,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84509,8367,60458,zip,IL,IL,Justice,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1223.93241,1166.933098,1238.792592
+84690,8455,60712,zip,IL,IL,Lincolnwood,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+84468,8475,60415,zip,IL,IL,Chicago Ridge,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+85784,8488,62918,zip,IL,IL,Carterville,"Carbondale-Marion, IL",Williamson County,1702.879999,1740.423165,1782.598658
+84571,8499,60542,zip,IL,IL,North Aurora,"Chicago-Naperville-Elgin, IL-IN-WI",Kane County,1702.879999,1740.423165,1782.598658
+85335,8799,62206,zip,IL,IL,Cahokia,"St. Louis, MO-IL",Saint Clair County,1702.879999,1740.423165,1782.598658
+84394,9189,60143,zip,IL,IL,Itasca,"Chicago-Naperville-Elgin, IL-IN-WI",DuPage County,1702.879999,1740.423165,1782.598658
+85327,9569,62095,zip,IL,IL,Wood River,"St. Louis, MO-IL",Madison County,1702.879999,1740.423165,1782.598658
+84657,10018,60661,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2332.069092,2359.378535,2465.331961
+84307,10132,60044,zip,IL,IL,Lake Bluff,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1702.879999,1740.423165,1782.598658
+84405,10802,60155,zip,IL,IL,Broadview,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1702.879999,1740.423165,1782.598658
+85073,11156,61606,zip,IL,IL,Peoria,"Peoria, IL",Peoria County,1702.879999,1740.423165,1782.598658
+84289,11190,60020,zip,IL,IL,Fox Lake,"Chicago-Naperville-Elgin, IL-IN-WI",Lake County,1702.879999,1740.423165,1782.598658
+84608,11930,60606,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2427.886202,2541.941383,2565.250848
+84440,12548,60195,zip,IL,IL,Schaumburg,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1625.100221,1654.848497,1717.622706
+84452,16890,60301,zip,IL,IL,Oak Park,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,2091.445035,2213.942912,2199.866053
+84605,21722,60603,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1986.272354,2143.13397,2299.995586
+21222,21222,10471,zip,IL,IL,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Cook County,1653.897654,1589.767839,1499.900089
