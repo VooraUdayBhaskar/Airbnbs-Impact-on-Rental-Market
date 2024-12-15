@@ -27,6 +27,9 @@ A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
    * [Technical Implementation](#Technical-Implementation)
 
 ## Problem Description
+
+This study investigates the impact of Airbnb on local housing markets, focusing on whether neighbourhoods with a high concentration of Airbnb listings experience increased real estate prices or reduced long-term rental availability. Using datasets from Airbnb and Zillow, the analysis incorporates enhanced visualizations created with D3, including heatmaps, choropleth maps, and bubble plots, to illustrate spatial trends and market dynamics.
+
 ## Data Summary
 ## Running AirBNB's Impact
 ## Results
