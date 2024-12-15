@@ -19,9 +19,31 @@ The team includes:
 
 ## Problem Description
 
+This project focuses on the United States housing market to examine the extent of Airbnb's influence on real estate prices and the availability of long-term rentals. Specifically, it investigates whether neighbourhoods with a high density of Airbnb listings experience a significant increase in real estate prices or a reduction in long-term rental availability. The study leverages comprehensive datasets, including over 280,000 Airbnb listings spanning 2020–2023, and integrates them with Zillow property price data. By employing advanced data cleaning techniques and focusing on geographic attributes such as neighbourhoods and zip codes, the analysis ensures a contextually accurate representation of local market dynamics. 
 
 
 ## Data Summary
+### Dataset Overview
+
+#### Airbnb Dataset:
+The Airbnb dataset, sourced from the Inside Airbnb platform, contains detailed information about Airbnb listings across various cities. For this analysis, dataset includes the following attributes: 
+
+Property Name: Identifies the Airbnb listing by name. 
+
+Price: Specifies the rental cost of the property per day or night. 
+
+Geolocation: Provides latitude and longitude details for mapping and spatial analysis. 
+
+Availability: Indicates the average number of days the property is available for rental. 
+
+Neighbourhood Region: Categorizes listings into specific neighbourhoods for localized analysis. 
+
+This dataset, spanning 2020–2023, contains over 280,000 records, enabling an extensive evaluation of Airbnb trends and their influence on the housing market.
+
+### Dataset Access
+[AirBNB](https://insideairbnb.com/get-the-data/)
+
+
 ## Running AirBNB's Impact
 ## Results
 ## Technical Implementation
