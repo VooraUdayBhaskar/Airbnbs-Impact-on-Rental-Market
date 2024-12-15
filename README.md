@@ -77,6 +77,8 @@ Start the application :
 
 You can access the application at (```http://localhost:3000```)
 ## Results
+### Key Findings:
+![Key Findings](./images/loop.png)
 ## Technical Implementation
 ### Technical Stack
 * React for UI components
