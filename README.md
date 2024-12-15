@@ -27,7 +27,10 @@ A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
    * [Technical Implementation](#Technical-Implementation)
 
 ## Problem Description
-
+## Data Summary
+## Running AirBNB's Impact
+## Results
+## Technical Implementation
 The following are prerequisites for all systems:
 
 1. Qt 5.8 (or later version)
