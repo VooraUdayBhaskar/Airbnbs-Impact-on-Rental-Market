@@ -78,12 +78,12 @@ Start the application :
 You can access the application at (```http://localhost:3000```)
 ## Results
 ### Key Findings:
-![Key Findings](./images/neighboorhood_analysis.png)
+![Key Findings](./images/neighboorhood-analysis.png)
 ![Key Findings](./images/heatmap.png)
 ![Key Findings](./images/chrolopeth.png)
 ![Key Findings](./images/bubblemap.png)
 ![Key Findings](./images/analysis.png)
-![Key Findings](./images/west_pullman.png)
+![Key Findings](./images/west-pullman.png)
 ![Key Findings](./images/loop.png)
 ## Technical Implementation
 ### Technical Stack
