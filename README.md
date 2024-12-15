@@ -75,7 +75,7 @@ Start the application :
 
  	 npm start
 
-
+YOu can access the application at (```http://localhost:3000```)
 ## Results
 ## Technical Implementation
 ### Technical Stack
