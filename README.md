@@ -78,14 +78,37 @@ Start the application :
 You can access the application at (```http://localhost:3000```)
 ## Results
 ### Key Findings:
-* 1. Visualization of AirBNB's locations
+* Visualization of AirBNB's locations
 ![Key Findings](./images/neighboorhood-analysis.png)
-
+* Heatmap demonstrates the distribution of Airbnb listings.
+* The intensity of the heatmap changes from blue to orange to red, with red areas indicating higher densities of listings in specific neighbourhoods.
+* The heatmap facilitates a temporal analysis by comparing the density of Airbnb listings across the chosen timestamps.
 ![Key Findings](./images/heatmap.png)
+* choropleth map highlights the distribution of Airbnb activity and rental prices across neighbourhoods in Chicago.
+* The map uses varying shades of colour, with darker shades indicating neighbourhoods with higher values, such as increased AirBNB density.
 ![Key Findings](./images/chrolopeth.png)
+* Bubble plot overlaying neighbourhood data to visualize the price variations of Airbnb listings across different regions in Chicago.
+* The plot uses color-coded bubbles to represent price ranges such as (Green: Affordable or low-priced listings), (Orange: Moderately priced listings) and (Red: Expensive listings). 
+* This color-coded system provides an intuitive understanding of price disparities across neighbourhoods.
 ![Key Findings](./images/bubblemap.png)
+* Our core analysis lies in predicting whether the effects of Airbnb activity on rental prices are positive or negative, ultimately aiding decisions about real estate investments. 
+* This showcases an interactive feature where users can view and analyse the price variation over time for specific neighbourhoods. 
+* In this example, the Loop neighbourhood has been selected, allowing users to explore detailed price trends for both rental properties and Airbnb listings within this area.
+* The graph on the right enables users to hover over specific points to observe price variations across different time periods.
+* This interactivity helps in understanding how neighbourhood dynamics change over time and provides actionable insights for stakeholders like investors, policymakers, and realtors.
+* Blue Line (Rental Price Trend): This graph represents the rental price trends for the Loop neighborhood based on the zipcode.
+* Green Line (Airbnb Price Trend): This graph depicts the weighted average price of Airbnb listings in the corresponding zip code for the Loop.
 ![Key Findings](./images/analysis.png)
+*  Visualization to help users determine whether to invest in a specific neighborhood.
+*  The selected neighborhood in the example is West Pullman, where the "Run Analysis" feature has been used to evaluate its investment potential.
+*  The outcome suggests "Don't Invest", with the neighborhood turning red, indicating that current trends in Airbnb and rental prices do not favor investment. 
+* The tool determines its recommendations based on price trends over time.
+* It suggests "Invest" when both Airbnb and rental prices are increasing in a neighborhood, signaling strong demand and 
+growth potential.
+* Conversely, it shows "Don't Invest" when the prices for both Airbnb and rentals are declining, indicating reduced demand or a cooling market
 ![Key Findings](./images/west-pullman.png)
+* The below figure provides another example where the "Run Analysis" feature recommends investing in the selected neighbourhood and it turns out to be green color.
+* Upon cross-checking using the "View Graphs" option, the price trends show an upward trajectory, validating the analysis's prediction to invest. 
 ![Key Findings](./images/loop.png)
 ## Technical Implementation
 ### Technical Stack
