@@ -20,7 +20,7 @@ A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
 
 ## Table of contents
 
-   * [Installing prerequisites](#installing-prerequisites)
+   * [Problem Description](#Problem-Description)
       * [Linux (Ubuntu, Linux Mint)](#linux-ubuntu-linux-mint)
       * [macOS](#macos)
       * [Windows 7, 8, 10](#windows-7-8-10)
