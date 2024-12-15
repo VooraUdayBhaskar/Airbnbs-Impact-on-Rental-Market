@@ -79,7 +79,7 @@ Start the application :
 
 ## Future Contributions
 * Fork this repository
-* Create a new branch (git checkout -b branch name)
+* Create a new branch (```git checkout -b branch name```)
 * Commit your contribution to the branch (git commit -m 'your contribution')
 * Push the work to the orginal branch (git push origin branch name)
 * Open a Pull Request
