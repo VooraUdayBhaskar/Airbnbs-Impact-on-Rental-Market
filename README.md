@@ -117,10 +117,10 @@ growth potential.
 ### Technical Stack
 * React for UI components
 * Visual Studio tool to run the application
-* Material-UI for styling
+* CSS for styling
 * Leaflet Open street map for mappings
 * D3.js for data visualization
-* Recharts for data visualization
+* Recharts for visualizations
 
 ## Future Contributions
 * Fork this repository
