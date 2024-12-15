@@ -56,14 +56,19 @@ The datasets can be accessed through :
 
 
 ## Running AirBNB's Impact
+The following are prerequisites for all systems:
+* Node.js (v14 or latest version)
+* Python 3.8+
+
+Start the application :
+
+
+	```
+ 		npm start
+	```
+
 ## Results
 ## Technical Implementation
-The following are prerequisites for all systems:
-
-1. Qt 5.8 (or later version)
-2. C++11 compatible compiler
-3. Java SE Development Kit 8 and Apache Ant.
-3. Node.js
 
 ### Linux (Ubuntu, Linux Mint)
 1. Download Qt 5.8 (or later version) at [qt.io/download-open-source](https://www.qt.io/download-open-source/) and install it.
