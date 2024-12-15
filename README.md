@@ -1,8 +1,6 @@
 # Airbnb's Impact
 
-This study investigates the impact of Airbnb on local housing markets, focusing on whether neighbourhoods with a high concentration of Airbnb listings experience increased real estate prices or reduced long-term rental availability. Using datasets from Airbnb and Zillow, the analysis incorporates enhanced visualizations created with D3, including heatmaps, choropleth maps, and bubble plots, to illustrate spatial trends and market dynamics.
-
-The framework was first presented in the [paper](https://fmiranda.me/publications/urban-pulse/tvcg-2017-urbanpulse.pdf):
+This is the study that investigates the impact of Airbnb on local housing markets, focusing on whether neighbourhoods with a high concentration of Airbnb listings experience increased real estate prices or reduced long-term rental availability. Using datasets from Airbnb and Zillow, the analysis incorporates enhanced visualizations created with D3, including heatmaps, choropleth maps, and bubble plots, to illustrate spatial trends and market dynamics.
 
 
 The team includes:
@@ -10,13 +8,6 @@ The team includes:
 * Uday Bhaskar Voora (University of Illinois Chicago)
 * Sravan Kilaru (University of Illinois Chicago)
 * Om Naga Sai Mani Pavan Chamarthi (University of Illinois Chicago)
-
-
-
-
-A live demo can be accessed on [vgc.poly.edu/projects/urban-pulse/](http://vgc.poly.edu/projects/urban-pulse/).
-
-A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
 
 ## Table of contents
 
