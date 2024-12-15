@@ -29,7 +29,7 @@ A video is available [here](https://www.youtube.com/watch?v=J70-Ns0cFnQ).
       * [Computing the pulses](#computing-the-pulses)
       * [Web client](#web-client)
 
-## Installing prerequisites
+## Problem Description
 
 The following are prerequisites for all systems:
 
