@@ -6,9 +6,8 @@ import L from "leaflet";
 import HeatmapControl from "./HeatmapControl";
 import ChoroplethControl from "./ChoroplethControl";
 import NeighborhoodGraphs from "./NeighborhoodGraphs";
-import * as d3 from 'd3'; // Install d3 for CSV processing: `npm install d3`
-
-
+import NeighborhoodAnalysis from "./NeighborhoodAnalysis";
+import * as d3 from "d3";
 import "./App.css";
 
 // Set default marker icon
@@ -23,14 +22,14 @@ L.Icon.Default.mergeOptions({
 const App = () => {
   const [data, setData] = useState([]); // Airbnb data from CSV
   const [geojsonData, setGeojsonData] = useState(null); // GeoJSON data
-  const [selectedNeighborhood, setSelectedNeighborhood] = useState(null); // Selected neighborhood for focus
+  const [selectedNeighborhood, setSelectedNeighborhood] = useState(null); // Selected neighborhood
   const [highlightedListings, setHighlightedListings] = useState([]); // Listings for the selected neighborhood
   const [showGraphs, setShowGraphs] = useState(false); // Graph modal toggle
+  const [showHeatmap, setShowHeatmap] = useState(false); // Heatmap toggle state
+  const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggle state
+  const [showNeighborhoodAnalysis, setShowNeighborhoodAnalysis] = useState(false); // Neighborhood analysis toggle
   const [rentalPrices, setRentalPrices] = useState([]);
   const [airbnbPrices, setAirbnbPrices] = useState([]);
-  const [showHeatmap, setShowHeatmap] = useState(false); // Heatmap toggle state
-const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggle state
-
 
   // Load Airbnb CSV data
   useEffect(() => {
@@ -57,27 +56,16 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
       .catch((error) => console.error("Error loading GeoJSON:", error));
   }, []);
 
-  // Fetch rental and Airbnb prices for graphs
- 
-
+  // Fetch data for graphs when a neighborhood is selected
   const fetchNeighborhoodData = async (neighborhood) => {
     try {
-      // Fetch rental prices dataset
       const rentalData = await d3.csv("/filled_prices_dataset.csv");
-      console.log("Rental Data Loaded:", rentalData);
-  
-      // Fetch Airbnb listings dataset (used as a mapping table)
       const airbnbData = await d3.csv("/filtered_listings.csv");
-      console.log("Airbnb Data Loaded:", airbnbData);
-  
-      // Get all zip codes for the selected neighborhood
+
       const matchingZipcodes = airbnbData
         .filter((item) => String(item.neighbourhood).trim() === String(neighborhood).trim())
         .map((item) => String(item.zip_code).trim());
-  
-      console.log("Matching Zipcodes for Neighborhood:", matchingZipcodes);
-  
-      // Filter rental prices by matching zip codes
+
       const rentalPrices = rentalData
         .filter((item) => matchingZipcodes.includes(String(item.RegionName).trim()))
         .map((item) => ({
@@ -85,87 +73,49 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
           march: parseFloat(item["31-03-2024"]),
           june: parseFloat(item["30-06-2024"]),
         }));
-  
+
       const meanRentalPrices = [
         d3.mean(rentalPrices, (d) => d.december),
         d3.mean(rentalPrices, (d) => d.march),
         d3.mean(rentalPrices, (d) => d.june),
       ];
-  
-      console.log("Mean Rental Prices:", meanRentalPrices);
-  
-      // Group Airbnb prices by zip_code
-      const airbnbGroupedByZipcode = d3.groups(airbnbData, (d) => String(d.zip_code).trim());
-      const meanPricesByZipcode = airbnbGroupedByZipcode.map(([zip_code, listings]) => ({
-        zip_code,
-        december: d3.mean(listings, (listing) => parseFloat(listing["31-12-2023"])),
-        march: d3.mean(listings, (listing) => parseFloat(listing["31-03-2024"])),
-        june: d3.mean(listings, (listing) => parseFloat(listing["30-06-2024"])),
-      }));
-  
-      console.log("Mean Prices by Zipcode:", meanPricesByZipcode);
-  
-      // Match Airbnb prices to the selected neighborhood based on zip codes
-      const neighborhoodAirbnbPrices = meanPricesByZipcode
-        .filter((entry) => matchingZipcodes.includes(entry.zip_code))
-        .map((entry) => ({
-          december: entry.december,
-          march: entry.march,
-          june: entry.june,
-        }));
-  
-      console.log("Filtered Airbnb Prices for Neighborhood:", neighborhoodAirbnbPrices);
-  
+
       const meanAirbnbPrices = [
-        d3.mean(neighborhoodAirbnbPrices, (d) => d.december),
-        d3.mean(neighborhoodAirbnbPrices, (d) => d.march),
-        d3.mean(neighborhoodAirbnbPrices, (d) => d.june),
+        d3.mean(
+          airbnbData
+            .filter((d) => matchingZipcodes.includes(String(d.zip_code).trim()))
+            .map((d) => parseFloat(d["31-12-2023"]))
+        ),
+        d3.mean(
+          airbnbData
+            .filter((d) => matchingZipcodes.includes(String(d.zip_code).trim()))
+            .map((d) => parseFloat(d["31-03-2024"]))
+        ),
+        d3.mean(
+          airbnbData
+            .filter((d) => matchingZipcodes.includes(String(d.zip_code).trim()))
+            .map((d) => parseFloat(d["30-06-2024"]))
+        ),
       ];
-  
-      console.log("Mean Airbnb Prices:", meanAirbnbPrices);
-  
-      // Set state with processed data
+
       setRentalPrices(meanRentalPrices);
       setAirbnbPrices(meanAirbnbPrices);
     } catch (error) {
       console.error("Error fetching neighborhood data:", error);
     }
   };
-  
-  
-  
 
   // Handle "View Listings"
   const handleViewListings = (neighborhood) => {
     const listings = data.filter((loc) => loc.neighbourhood === neighborhood);
-    setHighlightedListings(listings); // Highlight listings
-    setSelectedNeighborhood(neighborhood); // Focus on the neighborhood
+    setHighlightedListings(listings);
+    setSelectedNeighborhood(neighborhood);
   };
-
-  // Handle "View Graphs"
-  const handleViewGraphs = (neighborhood) => {
-    console.log("Selected Neighborhood for Graphs:", neighborhood); // Debugging
-    setSelectedNeighborhood(neighborhood); // Update selected neighborhood
-    fetchNeighborhoodData(neighborhood); // Fetch data for the graphs
-    setShowGraphs(true); // Open the graph modal
-};
-
-  
-
-  // GeoJSON layer styling
-  const getNeighborhoodStyle = (feature) => ({
-    color:
-      selectedNeighborhood === feature.properties.neighbourhood
-        ? "green"
-        : "blue", // Highlight selected neighborhood in green
-    weight: selectedNeighborhood === feature.properties.neighbourhood ? 3 : 2,
-    opacity: 0.7,
-  });
 
   return (
     <div className="App">
       <h1>Neighborhood Visualization</h1>
-      <MapContainer center={[41.8781, -87.6298]} zoom={10} style={{ height: "600px", width: "100%" }}>
+      <MapContainer center={[41.8781, -87.6298]} zoom={10} style={{ height: "100%", width: "100%" }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -173,7 +123,6 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
         {geojsonData && (
           <GeoJSON
             data={geojsonData}
-            style={getNeighborhoodStyle}
             onEachFeature={(feature, layer) => {
               const neighborhood = feature.properties.neighbourhood;
               layer.bindPopup(
@@ -185,20 +134,19 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
               layer.on("popupopen", () => {
                 document
                   .getElementById(`view-listings-${neighborhood}`)
-                  .addEventListener("click", () =>
-                    handleViewListings(neighborhood)
-                  );
+                  .addEventListener("click", () => handleViewListings(neighborhood));
 
                 document
                   .getElementById(`view-graphs-${neighborhood}`)
-                  .addEventListener("click", () =>
-                    handleViewGraphs(neighborhood)
-                  );
+                  .addEventListener("click", () => {
+                    fetchNeighborhoodData(neighborhood);
+                    setSelectedNeighborhood(neighborhood);
+                    setShowGraphs(true);
+                  });
               });
             }}
           />
         )}
-        {/* Render Highlighted Listings */}
         {highlightedListings.map((listing, idx) => (
           <Marker key={idx} position={[listing.latitude, listing.longitude]}>
             <Popup>
@@ -208,7 +156,11 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
             </Popup>
           </Marker>
         ))}
-        <HeatmapControl showHeatmap={showHeatmap} setShowHeatmap={setShowHeatmap} points={data} />
+        <HeatmapControl
+          showHeatmap={showHeatmap}
+          setShowHeatmap={setShowHeatmap}
+          points={data}
+        />
         <ChoroplethControl
           showChoropleth={showChoropleth}
           setShowChoropleth={setShowChoropleth}
@@ -220,15 +172,37 @@ const [showChoropleth, setShowChoropleth] = useState(false); // Choropleth toggl
         />
       </MapContainer>
 
-      {/* Neighborhood Graphs */}
-      <NeighborhoodGraphs
-  isOpen={showGraphs} // Show only when "View Graphs" is clicked
-  onClose={() => setShowGraphs(false)} // Close the graph box
-  neighborhood={selectedNeighborhood || ""} // Pass the selected neighborhood
-  rentalPrices={rentalPrices}
-  airbnbPrices={airbnbPrices}
-/>
+      {/* Toggle for Neighborhood Analysis */}
+      <div style={{ textAlign: "center", margin: "20px" }}>
+        <button
+          onClick={() => setShowNeighborhoodAnalysis(!showNeighborhoodAnalysis)}
+          style={{
+            padding: "10px 20px",
+            fontSize: "16px",
+            cursor: "pointer",
+            backgroundColor: showNeighborhoodAnalysis ? "#007bff" : "#6c757d",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+          }}
+        >
+          {showNeighborhoodAnalysis ? "Hide Neighborhood Analysis" : "Show Neighborhood Analysis"}
+        </button>
+      </div>
 
+      {/* Render Neighborhood Analysis */}
+      {showNeighborhoodAnalysis && <NeighborhoodAnalysis geojsonData={geojsonData} />}
+
+      {/* Render Graphs */}
+      {showGraphs && (
+        <NeighborhoodGraphs
+          isOpen={showGraphs}
+          onClose={() => setShowGraphs(false)}
+          neighborhood={selectedNeighborhood || ""}
+          rentalPrices={rentalPrices}
+          airbnbPrices={airbnbPrices}
+        />
+      )}
     </div>
   );
 };

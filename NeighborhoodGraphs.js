@@ -51,7 +51,7 @@ const NeighborhoodGraphs = ({
     ],
   };
 
-  const options = {
+const options = {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
