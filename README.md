@@ -17,7 +17,7 @@ Our Project Report Can be accessed Here
 
    * [Problem Description](#Problem-Description)
    * [Data Summary](#Data-Summary)
-   * [Running AirBNB's Impact](#Running-AirBNB's-Impact)
+   * [Running AirBNBs Impact](#Running-AirBNBs-Impact)
    * [Results](#Results)
    * [Technical Implementation](#Technical-Implementation)
    * [Future Contributions](#Future-contributions)
