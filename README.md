@@ -78,7 +78,7 @@ Start the application :
 You can access the application at (```http://localhost:3000```)
 ## Results
 ### Key Findings:
-(./images/neighboorhood.png)
+![Key Findings](./images/neighboorhood.png)
 ![Key Findings](./images/heatmap.png)
 ![Key Findings](./images/chrolopeth.png)
 ![Key Findings](./images/bubblemap.png)
