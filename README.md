@@ -78,7 +78,9 @@ Start the application :
 You can access the application at (```http://localhost:3000```)
 ## Results
 ### Key Findings:
+* 1. Visualization of AirBNB's locations
 ![Key Findings](./images/neighboorhood-analysis.png)
+
 ![Key Findings](./images/heatmap.png)
 ![Key Findings](./images/chrolopeth.png)
 ![Key Findings](./images/bubblemap.png)
